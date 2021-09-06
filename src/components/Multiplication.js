@@ -5,7 +5,7 @@ import { CalculatorContext } from "../providers/CalculatorContext";
 const Multiplication = () => {
   const { multiplication } = useContext(CalculatorContext);
 
-  console.log("multiplication", multiplication);
+  console.log("Multiplication component is rendered");
 
   return <button onClick={() => multiplication()}>MULTIPLY</button>;
 };

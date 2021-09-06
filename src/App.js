@@ -11,6 +11,8 @@ import ShowResult from "./components/Result";
 import "./App.css";
 
 function App() {
+  console.log("App component is rendered");
+
   return (
     <div className="app">
       <CalculatorContext>

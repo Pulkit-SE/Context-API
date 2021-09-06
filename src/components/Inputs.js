@@ -3,6 +3,8 @@ import React, { useContext } from "react";
 import { CalculatorContext } from "../providers/CalculatorContext";
 
 const TakeUserInputs = () => {
+  console.log("Input component is rendered");
+
   const context = useContext(CalculatorContext);
 
   return (
